@@ -1,0 +1,270 @@
+body {
+    cursor: url('../images/cursor.cur'), default;
+    margin: 0px;
+    background-color: white;
+    font-family: 'Shippori Mincho', serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #938981;
+    transition: .5s;
+}
+
+a:hover {
+    color: #86AB9B;
+    cursor: url('../images/cursor.cur'), default;
+
+}
+
+#hamburger_menu {
+    display: none;
+}
+/* header */
+/* ------------ 01 logo + 02 nav------------- */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    
+}
+
+
+.logopic>img {
+    width: 60px;
+    height: auto;
+
+}
+
+.logotext  {
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: #AE7373;
+}
+
+.logotext>a>span {
+    color: #86AB9B;
+}
+
+
+/* --------------02 nav --------------- */
+
+.nav>ul {
+    padding-inline-start: 0px;
+    display: flex;
+    margin-right: 50px;
+
+}
+
+.nav_list {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 88px;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    margin:0 10px;
+    
+}
+
+.nav_list>a>p {
+    /* 垂直文字 */
+    writing-mode: vertical-lr;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    letter-spacing: 10px;
+    font-size: 18px;
+    color: #938981;
+}
+
+
+.nav_list>img {
+    width: 20px;
+    height: auto;
+    opacity: 0;
+}
+
+.nav_list>div {
+    width: 100px;
+    height: 0;
+}
+
+.nav_list_item_1, .nav_list_item_2, .nav_list_item_3 {
+    position: absolute;
+}
+
+.nav_list_item_1 {
+    width: 80px;
+    background-color: #f1f1f1dd;
+    top: 180px;
+    z-index: 1;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    line-height: 25px;
+    color: #938981;
+    display: none;
+}
+
+.nav_list_item_2 {
+    width: 80px;
+    background-color: #f1f1f1dd;
+    top: 180px;
+    z-index: 1;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    line-height: 25px;
+    color: #938981;
+    display: none;
+
+}
+
+.nav_list_item_3 {
+    width: 80px;
+    background-color: #f1f1f1dd;
+    top: 180px;
+    z-index: 1;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    line-height: 25px;
+    color: #938981;
+    display: none;
+
+}
+/*--------------- 03 hero banner --------------*/
+
+.hero_banner {
+    position: relative;
+    height: 550px;
+    background: url("../images/03_hero_bg.png") no-repeat center;
+    background-size: cover;
+   
+}
+
+.heroimg {
+    top: 10px;
+    left: 250px;
+    position: absolute;
+}
+
+.herotext {
+    position: absolute;
+    right: 300px;
+    top: 100px;
+    font-size: 18px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    color: #AE7373;
+}
+
+.heronews {
+    position: absolute;
+    right: 250px;
+    bottom: 50px;
+}
+
+
+
+
+
+
+
+/* footer */
+/* -------------09 footer---------------- */
+
+footer {
+    max-width: 1920px;
+    margin:0 auto;
+}
+
+ 
+
+.footer_nav>ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-bottom: -20px;
+}
+
+.fotter_list {
+    width: 88px;
+    height: 200px;
+    writing-mode: vertical-lr;
+    background-color: #f1f1f1;
+    border-radius: 15px 15px 0 0;
+    margin:0 10px;
+
+    line-height: 88px;
+    text-align: center;
+    letter-spacing: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer_nav>ul>li:nth-of-type(1) {
+    color: #938981;
+}
+
+.footer_nav>ul>li:nth-of-type(2) {
+    color: #86AB9B;
+}
+
+.footer_nav>ul>li:nth-of-type(3) {
+    color: #AE7373;
+}
+
+.footer_bottom{
+    background-color: #f1f1f1;
+    padding: 20px 0;
+}
+
+
+.footer_connect>ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_connect li {
+    font-size: 14px;
+    margin: 0px 10px;
+    color: #938981;
+}
+
+.footer_img>ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_img img {
+    width: 30px;
+    height: auto;
+    margin: 0 5px;
+}
+
+.footer_copyright {
+    margin: 10px auto 0;
+    width: 50%;
+    text-align: center;
+    font-size: 10px;
+    color: #938981;
+    letter-spacing: 3px;
+}
+
+
+
