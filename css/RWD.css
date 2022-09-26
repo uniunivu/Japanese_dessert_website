@@ -58,7 +58,7 @@
 @media (max-width:1000px) {
 
     #hamburger_menu {
-        width: 100px;
+        width: 130px;
         display: flex;
         flex-wrap: wrap;
         justify-content: end;
@@ -68,6 +68,7 @@
     }
 
     #hamburger_menu ul {
+        
         padding-inline-start: 0px;
         background-color: #ffffffb6;
         border-radius: 15px;
@@ -77,7 +78,7 @@
     }
 
     #hamburger_menu>ul>li {
-        font-size: 20px;
+        font-size: 18px;
         line-height: 50px;
         letter-spacing: 5px;
     }
