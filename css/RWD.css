@@ -346,6 +346,9 @@
     * {
         font-size: 12px;
     }
+    .logotext>a {
+        font-size: 18px;
+    }
     .hero_banner {
         height: 420px;
     }    
