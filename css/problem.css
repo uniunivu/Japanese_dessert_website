@@ -64,7 +64,8 @@ main {
 
 .pstext {
     text-align: center;
-    font-size: 15px;
+    font-size: 12px;
+    margin: 10px auto;
     letter-spacing: 2px;
     color: #938981;
 }
@@ -74,5 +75,11 @@ main {
 @media(max-width:1024px) {
     .container {
         width: 90%;
+    }
+}
+
+@media(max-width:414px) {
+    #mainarea {
+        height: 500px;
     }
 }

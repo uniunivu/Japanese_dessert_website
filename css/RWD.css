@@ -58,7 +58,7 @@
 @media (max-width:1000px) {
 
     #hamburger_menu {
-        width: 130px;
+        width: 100px;
         display: flex;
         flex-wrap: wrap;
         justify-content: end;
@@ -121,9 +121,21 @@
 
     .side {
         margin: 20px 0;
-        width: 85%;
+        width: 95%;
         display: flex;
         justify-content: space-around;
+    }
+
+    .side_pic {
+        margin:0 8px;
+    }
+
+    .side_pic>img {
+        width: 150px;
+    }
+
+    .best_dessert_title {
+        margin-left: 5%;
     }
 
     .category_pic_list {
@@ -152,7 +164,7 @@
 
     .advertisement {
         display: block;
-        margin:0px 15px;
+        margin:30px 15px 0px;
         padding: 50px 50px;
 
     }
@@ -161,13 +173,17 @@
     }
     .adv_Image {
         margin-bottom: 15px;
+        display: flex;
+        justify-content: center;
+
     }
 
     .adv_Image:nth-of-type(2), .adv_Image:nth-of-type(3) {
         display: none;
     }
     .adv_Image>img {
-        width: 100%;   
+        width: 75%;   
+        
     }
 
     .advmain {
@@ -183,35 +199,48 @@
     }
     
     .bestgift {
-        padding: 70px 90px;
+        width: 90%;
+        margin: 0 auto;
+        padding: 0px 0;
     }
+
 
     .bestgift_title {
         margin: 150px 40px 150px 0px;
     }
 
     .gift_3rd {
-        display: block;
         width: 100%;
     }
 
     .gift:nth-of-type(2), .gift:nth-of-type(3) {
         display: none;
     }
+
+    .giftpic {
+        width: 100%;
+    }
    
 
     .giftpic>img {
-        width: 95%;
+        width: 70%;
+    }
+
+    .giftname {
+        width: 70%;
+    }
+    .gift_price {
+        width: 70%;
     }
 
     .best_dessert {
         display: block;
         justify-content: center;
-        padding: 0 50px;
+        padding: 0 15px;
     }
 
     .best_dessert_img {
-        margin: 0 15px;
+        margin: 0 auto;
         width: 85%;
         
     }
@@ -221,7 +250,7 @@
     }
 
     .side_pic>img {
-        width: 95px;
+        width: 95%;
     }
 
     .best_dessert_title {
@@ -279,16 +308,12 @@
 
     .bestgift_title {
         font-size: 15px;
-        margin: 80px 40px 150px 0px;
+        margin: 80px 40px 50px 20px;
 
     }
 
     .best_dessert_title {
         font-size: 15px;
-    }
-
-    .side_pic>img {
-        width: 75px;
     }
 
     .category_title {
@@ -308,12 +333,17 @@
     .footer_connect>ul {
         padding-inline-start: 0px;
     }
+
+    .square2 {
+        width: 66px;
+        height:66px;
+    }
 }
 
 /* --------------------420px----------------------------- */
 @media(max-width: 420px) {
     * {
-        font-size: 15px;
+        font-size: 12px;
     }
     .hero_banner {
         height: 420px;
@@ -322,8 +352,12 @@
         font-size: 10px;
     }
 
-    .side_pic>img {
-        width: 60px;
+    .best_dessert {
+        padding: 0 10px;
+    }
+
+    .side {
+        width: 100%;
     }
 
     .bestgift {
@@ -331,14 +365,17 @@
     }
 
     .bestgift_title {
-        margin: 120px 40px 150px 25px;
+        margin: 60px 40px 100px 25px;
     }
     .giftbox_lg img {
-        width: 350px;
+        width: 330px;
     }
 
     .footer_copyright {
         font-size: 9px;
     }
-
+    .square2 {
+        width: 33px;
+        height:33px;
+    }
 }

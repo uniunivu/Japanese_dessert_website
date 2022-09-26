@@ -45,8 +45,9 @@ function prevItem() {
     // console.log(picGroup.style.left);  
 
     if(click <0) {
-        click = 5;
-        height = -1250;
+        click = 8;
+        console.log(click);
+        height = -2000;
         picGroup.style.left = height + "px";
     }
 

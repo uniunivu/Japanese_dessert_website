@@ -23,6 +23,7 @@ function nextItem() {
         // console.log(add_height);
         height = height - add_height;
         picGroup.style.left = height + "px";
+        console.log(height);
         // console.log(picGroup.style.left);  
 
     } else if(click >= 3) {
@@ -45,8 +46,9 @@ function prevItem() {
     // console.log(picGroup.style.left);  
 
     if(click <0) {
-        click = 5;
-        height = -1250;
+        click = 2;
+        console.log(click);
+        height = -500;
         picGroup.style.left = height + "px";
     }
 

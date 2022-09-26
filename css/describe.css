@@ -98,10 +98,20 @@ main {
     margin:0 auto;
 }
 
+.recommendtext {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #938981;
+}
+
 .select {
     height: 280px;
     width: 1015px;
-    margin: 100px auto;
+    margin: 20px auto;
     position: relative;
     overflow: hidden;
 
