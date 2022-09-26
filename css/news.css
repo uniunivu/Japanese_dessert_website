@@ -4,7 +4,7 @@ main {
 }
 
 .container {
-    width: 1200px;
+    width: 90%;
     margin: 120px auto;
 }
 .title {
@@ -39,4 +39,24 @@ main {
 
 .newstext>span {
     color: #938981;
+}
+
+@media (max-width:1440px) {
+
+    .news {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .newspic {
+        display: flex;
+        justify-content: center;
+    }
+    .newspic>img {
+        width: 75%;
+    }
+    .newstext {
+        width: 90%;
+        margin:0 auto;
+    }
 }
