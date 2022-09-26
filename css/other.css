@@ -1,0 +1,162 @@
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    color: #ae7373;
+}
+
+.maincontent {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contentpic {
+    margin: 0 15px;
+    overflow: hidden;
+}
+
+.contentpic>img {
+    width: 312px;
+    height: auto;
+    border-radius: 15px;
+    transition: .5s;
+}
+.contentpic>img:hover {
+    transform: scale(1.15) rotate(10deg);
+}
+
+.contenttext {
+    margin-left: 15px;
+    letter-spacing: 3px;
+}
+
+.contenttext>h4 {
+    color: #ae7373;
+}
+
+.contenttext>span {
+    font-size: 13px;
+    color: #86ab9b;
+}
+
+.colorblock {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.block1, .block2, .block3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.block1 {
+    background-color: #ae7373;
+}
+
+.block2 {
+    background-color: #86ab9b;
+}
+
+.block3 {
+    background-color: #faf2c2;
+}
+
+.team {
+    margin: 20px auto;
+    width: 55%;
+}
+
+.people {
+    display: flex;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.peopleImg>img {
+    width: 200px;
+    height: auto;
+    border-radius: 100px;
+    border: 1px solid #86ab9bb3;
+    padding: 10px;
+}
+
+.peopleImg {
+    
+    margin: 20px;
+}
+
+.peopleText {
+    margin: 20px;
+}
+
+.peopleText>span:nth-of-type(1) {
+    font-weight: 700;
+    color: #ae7373;
+}
+
+.peopleText>span:nth-of-type(2) {
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+
+@media(max-width:1024px) {
+    .maincontent {
+        width: 90%;
+        flex-wrap: wrap;
+    }
+
+    .people {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .people>.peopleImg {
+        order: 1;
+    }
+
+    .people>.peopleText {
+        order: 2;
+    }
+    .contentpic>img {
+        width: 280px;
+    }
+}
+
+@media(max-width:768px) {
+    .contentpic>img {
+        width: 260px;
+    }
+}
+
+
+@media(max-width:576px) {
+
+    .contentpic>img {
+        width: 250px;
+    }
+
+    .team {
+        width: 80%;
+    }
+}
+
+

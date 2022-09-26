@@ -102,7 +102,6 @@ main {
     height: 280px;
     width: 1015px;
     margin: 100px auto;
-    border: 1px green solid;
     position: relative;
     overflow: hidden;
 
@@ -118,11 +117,63 @@ main {
     left: 0px;
     /* 移動一個是250px */
     height: 100%;
-    border: 1px blue solid;
     display: flex;
 }
 
 .itembox {
     margin: auto 25px;
-    border: 1px orange solid;
 }
+
+
+@media (max-width:1024px) {
+    
+    .item {
+        width: 600px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .other_choice {
+        width: 860px;
+    }
+    
+    .select {
+        margin-right: 10px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .item {
+        width: 400px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .itempic>img {
+        width: 400px;
+    }
+
+    .other_choice {
+        width: 560px;
+    }
+    
+}
+
+@media(max-width: 414px) {
+    .item {
+        width: 340px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .itempic>img {
+        width: 300px;
+    }
+
+    .other_choice {
+        width: 300px;
+    }
+
+}
+

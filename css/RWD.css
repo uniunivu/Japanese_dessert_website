@@ -1,6 +1,7 @@
 
 
 
+/* --------------------1220px----------------------------- */
 
 @media (max-width:1220px) {
     
@@ -52,7 +53,7 @@
 }
 
 
-/* ---------------------------------------- */
+/* --------------------1000px----------------------------- */
 
 @media (max-width:1000px) {
 
@@ -135,6 +136,7 @@
 
 
 }
+/* --------------------768px----------------------------- */
 
 @media (max-width: 768px) {
 
@@ -244,6 +246,8 @@
 }
 
 
+/* --------------------576px----------------------------- */
+
 @media (max-width:576px) {
     
     .logo {
@@ -283,6 +287,10 @@
         font-size: 15px;
     }
 
+    .side_pic>img {
+        width: 75px;
+    }
+
     .category_title {
         font-size: 15px;
     }
@@ -293,9 +301,16 @@
     .giftbox_text {
         font-size: 15px;
     }
+    .footer_nav {
+        display: none;
+    }
+
+    .footer_connect>ul {
+        padding-inline-start: 0px;
+    }
 }
 
-
+/* --------------------420px----------------------------- */
 @media(max-width: 420px) {
     * {
         font-size: 15px;
@@ -307,6 +322,10 @@
         font-size: 10px;
     }
 
+    .side_pic>img {
+        width: 60px;
+    }
+
     .bestgift {
         padding: 0 0 0 0px;
     }
@@ -316,6 +335,10 @@
     }
     .giftbox_lg img {
         width: 350px;
+    }
+
+    .footer_copyright {
+        font-size: 9px;
     }
 
 }

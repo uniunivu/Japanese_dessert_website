@@ -50,3 +50,23 @@ main {
     font-weight: 700;
     color: #86ab9b;
 }
+
+
+@media(max-width:1024px) {
+    .container {
+        width: 650px;
+    }
+}
+
+@media(max-width: 768px) {
+    .container {
+        width: 450px;
+    }
+}
+
+@media(max-width: 414px) {
+    .container {
+        width: 250px;
+        justify-content: center;
+    }
+}

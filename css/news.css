@@ -1,0 +1,42 @@
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 1200px;
+    margin: 120px auto;
+}
+.title {
+    text-align: center;
+    margin: 50px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: #86ab9b;
+}
+
+.news {
+    display: flex;
+
+}
+
+.newspic>img {
+    width: 540px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.newstext {
+    margin-left: 50px;
+    letter-spacing: 3px;
+}
+
+.newstext>h3 {
+    text-align: center;
+    font-size: 25px;
+    color: #ae7373;
+}
+
+.newstext>span {
+    color: #938981;
+}
