@@ -53,3 +53,16 @@ function prevItem() {
     }
 
 };
+
+// 按按鈕增加購物車數量
+
+let addCart = document.getElementById("addCart");
+let itemNumber = Number(document.getElementById("itemNumber").innerHTML);
+addCart.addEventListener("click",addNum);
+console.log(itemNumber);
+function addNum() {
+    let addNumber = 1;
+    itemNumber = itemNumber + addNumber;
+    console.log(itemNumber);
+    document.getElementById("itemNumber").innerHTML = itemNumber;
+};

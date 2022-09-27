@@ -41,19 +41,19 @@ main {
 
 }
 
-.itemtext>span {
+.itemtext span {
     color:#938981;
     font-size: 13px;
 }
 
-.itemtext>select {
+.itemtext select {
     background-color: #faf2f2;
     border: 1px dashed #ccc;
     color:#938981;
     font-weight: 600;
 }
 
-.itemtext>input {
+.itemtext input {
     background-color: #ae7373;
     border: 0;
     color:#f1f1f1;

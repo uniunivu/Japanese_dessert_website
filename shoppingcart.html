@@ -9,6 +9,7 @@
     <title>日日好日 </title>
     <link rel="stylesheet" href="./css/normal.css">
     <link rel="stylesheet" href="./css/RWD.css">
+    <link rel="stylesheet" href="./css/cart.css">
 
 
     <!-- google font -->
@@ -45,7 +46,9 @@
                     <li class="nav_list">
                         <img src="./images/02_nav_sm.png" alt="">
                         <div></div>
-                        <a href="./dessert.html"><p>甜點品項</p></a>
+                        <a href="./dessert.html">
+                            <p>甜點品項</p>
+                        </a>
                         <ul class="nav_list_item_1">
                             <li>▼</li>
                             <li><a href="./dessert_describe_01.html">糰子</a></li>
@@ -62,7 +65,9 @@
                     <li class="nav_list">
                         <img src="./images/02_nav_sm.png" alt="">
                         <div></div>
-                        <a href="./drink.html"><p>茶　　飲</p></a>
+                        <a href="./drink.html">
+                            <p>茶　　飲</p>
+                        </a>
                         <ul class="nav_list_item_2">
                             <li>▼</li>
                             <li><a href="./drink_describe_01.html">玄米茶</a></li>
@@ -73,7 +78,9 @@
                     <li class="nav_list">
                         <img src="./images/02_nav_sm.png" alt="">
                         <div></div>
-                        <a href="./giftbox.html"><p>禮盒系列</p></a>
+                        <a href="./giftbox.html">
+                            <p>禮盒系列</p>
+                        </a>
                         <ul class="nav_list_item_3">
                             <li>▼</li>
                             <li><a href="./giftbox_describe_01.html">蒸饅頭系列</a></li>
@@ -84,7 +91,9 @@
                     <li class="nav_list">
                         <img src="./images/02_nav_sm.png" alt="">
                         <div></div>
-                        <a href="./about_us.html"><p>關於我們</p></a>
+                        <a href="./about_us.html">
+                            <p>關於我們</p>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -104,7 +113,85 @@
 
     <main>
 
+        <div class="container">
+            <div class="title">購物車</div>
+
+            <form action="" method="get">
+                <div class="shoppingbox">
+                    <div class="shoppingImg"><img src="./images/dessert_pic_200_1.png" alt=""></div>
+                    <div class="shoppingText">
+                        <div id="itemName">糰子</div>
+                        <div id="itemPrice">$ 50 （三入）</div>
+                        <div id="item_Num">數量：<input type="number" name="itemNum" id="itemNum" placeholder="1" disabled></div>
+                        <div class="itemSum">小計：<div id="itemSum"></div></div>
+                        <input type="button" value="修改">
+                        <input type="button" value="刪除">
+                    </div>
+                    
+                </div>
+                <hr>
+                <div class="shoppingbox">
+                    <div class="shoppingImg"><img src="./images/dessert_pic_200_1.png" alt=""></div>
+                    <div class="shoppingText">
+                        <div id="itemName">糰子</div>
+                        <div id="itemPrice">$ 50 （三入）</div>
+                        <div id="item_Num">數量：<input type="number" name="itemNum" id="itemNum" placeholder="1" disabled></div>
+                        <div class="itemSum">小計：<div id="itemSum"></div></div>
+                        <input type="button" value="修改">
+                        <input type="button" value="刪除">
+                    </div>
+                    
+                </div>
+                <hr>
+                <div class="shoppingbox">
+                    <div class="shoppingImg"><img src="./images/dessert_pic_200_1.png" alt=""></div>
+                    <div class="shoppingText">
+                        <div id="itemName">糰子</div>
+                        <div id="itemPrice">$ 50 （三入）</div>
+                        <div id="item_Num">數量：<input type="number" name="itemNum" id="itemNum" placeholder="1" disabled></div>
+                        <div class="itemSum">小計：<div id="itemSum"></div></div>
+                        <input type="button" value="修改">
+                        <input type="button" value="刪除">
+                    </div>
+                    
+                </div>
+                <hr>
+                <div class="shoppingbox">
+                    <div class="shoppingImg"><img src="./images/dessert_pic_200_1.png" alt=""></div>
+                    <div class="shoppingText">
+                        <div id="itemName">糰子</div>
+                        <div id="itemPrice">$ 50 （三入）</div>
+                        <div id="item_Num">數量：<input type="number" name="itemNum" id="itemNum" placeholder="1" disabled></div>
+                        <div class="itemSum">小計：<div id="itemSum"></div></div>
+                        <input type="button" value="修改">
+                        <input type="button" value="刪除">
+                    </div>
+                    
+                </div>
+                <hr>
+                <div class="shoppingbox">
+                    <div class="shoppingImg"><img src="./images/dessert_pic_200_1.png" alt=""></div>
+                    <div class="shoppingText">
+                        <div id="itemName">糰子</div>
+                        <div id="itemPrice">$ 50 （三入）</div>
+                        <div id="item_Num">數量：<input type="number" name="itemNum" id="itemNum" placeholder="1" disabled></div>
+                        <div class="itemSum">小計：<div id="itemSum"></div></div>
+                        <input type="button" value="修改">
+                        <input type="button" value="刪除">
+                    </div>
+                    
+                </div>
+                <hr>
+                <div class="checkout">
+                    <div id="sum">總金額：<div id="sumNum"></div></div>    
+                    <button type="submit">結帳</button>
+                </div>
+
+            </form>
+        </div>
+
     </main>
+    
 
     <footer>
 
@@ -132,10 +219,13 @@
 
                 <div class="footer_img">
                     <ul>
-                        <li><a href="https://www.facebook.com" target="_blank"><img src="./images/09_fb.png" alt=""></a></li>
-                        <li><a href="https://www.instagram.com" target="_blank"><img src="./images/09_ig.png" alt=""></a></li>
+                        <li><a href="https://www.facebook.com" target="_blank"><img src="./images/09_fb.png" alt=""></a>
+                        </li>
+                        <li><a href="https://www.instagram.com" target="_blank"><img src="./images/09_ig.png"
+                                    alt=""></a></li>
                         <li><a href="#"><img src="./images/09_line.png" alt=""></a></li>
-                        <li><a href="https://www.twitter.com" target="_blank"><img src="./images/09_twitter.png" alt=""></a></li>
+                        <li><a href="https://www.twitter.com" target="_blank"><img src="./images/09_twitter.png"
+                                    alt=""></a></li>
                     </ul>
                 </div>
 
@@ -146,7 +236,7 @@
                     <span>地址｜台中市西屯區西屯路三段125號</span>
                     <br>
                     <span>電話｜0800-875126</span>
-                    
+
                     <br>
                     <span>版權聲明 © 2022 日日好日デザート</span>
                 </div>

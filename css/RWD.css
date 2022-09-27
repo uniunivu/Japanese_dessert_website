@@ -153,6 +153,18 @@
 
 @media (max-width: 768px) {
 
+    .shoppingcarticon img {
+        width: 60px;
+        height: auto;
+    }
+
+    #itemNumber {
+        width: 15px;
+        height: 15px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
     .navbar {
         z-index: 1;
         width: 100%;
@@ -307,6 +319,19 @@
         font-size: 15px;
     }
 
+
+    .shoppingcarticon img {
+        width: 50px;
+        height: auto;
+    }
+
+    #itemNumber {
+        width: 15px;
+        height: 15px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
     .bestgift_title {
         font-size: 15px;
         margin: 80px 40px 50px 20px;
@@ -354,6 +379,16 @@
     }    
     .herotext {
         font-size: 10px;
+    }
+
+
+    .shoppingcarticon img {
+        width: 40px;
+        height: auto;
+    }
+
+    #itemNumber {
+        right: -2px;
     }
 
     .best_dessert {

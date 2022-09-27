@@ -46,7 +46,9 @@
                     <li class="nav_list">
                         <img src="./images/02_nav_sm.png" alt="">
                         <div></div>
-                        <a href="./dessert.html"><p>甜點品項</p></a>
+                        <a href="./dessert.html">
+                            <p>甜點品項</p>
+                        </a>
                         <ul class="nav_list_item_1">
                             <li>▼</li>
                             <li><a href="./dessert_describe_01.html">糰子</a></li>
@@ -63,7 +65,9 @@
                     <li class="nav_list">
                         <img src="./images/02_nav_sm.png" alt="">
                         <div></div>
-                        <a href="./drink.html"><p>茶　　飲</p></a>
+                        <a href="./drink.html">
+                            <p>茶　　飲</p>
+                        </a>
                         <ul class="nav_list_item_2">
                             <li>▼</li>
                             <li><a href="./drink_describe_01.html">玄米茶</a></li>
@@ -74,7 +78,9 @@
                     <li class="nav_list">
                         <img src="./images/02_nav_sm.png" alt="">
                         <div></div>
-                        <a href="./giftbox.html"><p>禮盒系列</p></a>
+                        <a href="./giftbox.html">
+                            <p>禮盒系列</p>
+                        </a>
                         <ul class="nav_list_item_3">
                             <li>▼</li>
                             <li><a href="./giftbox_describe_01.html">蒸饅頭系列</a></li>
@@ -85,7 +91,9 @@
                     <li class="nav_list">
                         <img src="./images/02_nav_sm.png" alt="">
                         <div></div>
-                        <a href="./about_us.html"><p>關於我們</p></a>
+                        <a href="./about_us.html">
+                            <p>關於我們</p>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -115,21 +123,22 @@
                 <div class="itemtext">
                     <h4>蒸饅頭系列</h4>
                     <p>日式饅頭是一種日本和菓子甜品，外形似饅頭，外皮用小麥、米同蕎麥粉去整，入面包住甜餡，多數都用豆沙。
-                    內含巧克力饅頭，栗子饅頭，燒饅頭，融合傳統和養生創新的口味。</p>
+                        內含巧克力饅頭，栗子饅頭，燒饅頭，融合傳統和養生創新的口味。</p>
                     <span>$ 1980 / 1 盒</span><br>
                     <span>$ 5900 / 3 盒（1組）</span><br>
                     <br>
-                    <select name="numbers" id="numbers">
-                        <option value="1">1盒</option>
-                        <option value="1">2盒</option>
+                    <form action="">
+                        <select name="numbers" id="numbers">
+                            <option value="1">1盒</option>
+                            <option value="1">2盒</option>
 
-                
-                        <option value="1">3盒（一組）</option>
-                    </select>
-                    <br>
-                    <br>
-                    <input type="button" value="加入購物車">
 
+                            <option value="1">3盒（一組）</option>
+                        </select>
+                        <br>
+                        <br>
+                        <input id="addCart" type="button" value="加入購物車">
+                    </form>
 
 
                 </div>
@@ -164,7 +173,7 @@
                 console.log("哈")
 
                 selectPic.innerHTML +=
-                `
+                    `
                     <div class="itembox">
                         <div id="itempic">
                             <a href="./giftbox_describe_0${i + 1}.html">
@@ -185,6 +194,12 @@
 
 
     </main>
+    <div class="shoppingcarticon">
+        <a href="./shoppingcart.html">
+            <img src="./images/shoppingcart_icon.png" alt="">
+            <div id="itemNumber">0</div>
+        </a>
+    </div>
     <footer>
 
         <!------------- 09 footer  ------------->
@@ -211,10 +226,13 @@
 
                 <div class="footer_img">
                     <ul>
-                        <li><a href="https://www.facebook.com" target="_blank"><img src="./images/09_fb.png" alt=""></a></li>
-                        <li><a href="https://www.instagram.com" target="_blank"><img src="./images/09_ig.png" alt=""></a></li>
+                        <li><a href="https://www.facebook.com" target="_blank"><img src="./images/09_fb.png" alt=""></a>
+                        </li>
+                        <li><a href="https://www.instagram.com" target="_blank"><img src="./images/09_ig.png"
+                                    alt=""></a></li>
                         <li><a href="#"><img src="./images/09_line.png" alt=""></a></li>
-                        <li><a href="https://www.twitter.com" target="_blank"><img src="./images/09_twitter.png" alt=""></a></li>
+                        <li><a href="https://www.twitter.com" target="_blank"><img src="./images/09_twitter.png"
+                                    alt=""></a></li>
                     </ul>
                 </div>
 
@@ -225,7 +243,7 @@
                     <span>地址｜台中市西屯區西屯路三段125號</span>
                     <br>
                     <span>電話｜0800-875126</span>
-                    
+
                     <br>
                     <span>版權聲明 © 2022 日日好日デザート</span>
                 </div>

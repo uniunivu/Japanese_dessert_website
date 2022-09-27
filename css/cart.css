@@ -1,0 +1,84 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.title {
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ae7373;
+}
+
+.shoppingbox {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.shoppingImg {
+    margin-right: 20px;
+}
+
+.shoppingImg>img {
+    width: 100px;
+    border-radius: 15px;
+}
+
+.shoppingText {
+    line-height: 30px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #86ab9b;
+
+}
+
+#itemName {
+    color: #938981;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+
+.checkout {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 100px 0;
+    color: #ae7373;
+    font-weight: 600;
+}
+
+#sum {
+    
+    text-align: center;
+    width: 100%;
+    margin: 15px auto;
+}
+
+input {
+    background-color: #f1f1f1;
+    border: none;
+    padding: 5px;
+    letter-spacing: 2px;
+    color: #938981;
+}
+
+button {
+    background-color: #ae7373;
+    color: #f1f1f1;
+    border: none;
+    letter-spacing: 2px;
+    padding: 8px;
+}
+
+hr {
+    display: block; 
+    height: 1px;
+    width: 50%;
+    border: 0; 
+    border-top: 1px solid #f1f1f1;
+    margin: 50px auto;
+}

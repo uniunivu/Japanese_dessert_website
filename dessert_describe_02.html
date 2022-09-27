@@ -126,19 +126,20 @@
                     <span>$ 70 / 2 個</span><br>
                     <span>$ 400 / 12 個</span><br>
                     <br>
-                    <select name="numbers" id="numbers">
-                        <option value="1">2個</option>
-                        <option value="1">4個</option>
-                        <option value="1">6個</option>
-                        <option value="1">8個</option>
-                        <option value="1">10個</option>
+                    <form action="">
+                        <select name="numbers" id="numbers">
+                            <option value="1">2個</option>
+                            <option value="1">4個</option>
+                            <option value="1">6個</option>
+                            <option value="1">8個</option>
+                            <option value="1">10個</option>
 
-                        <option value="1">12個（一盒）</option>
-                    </select>
-                    <br>
-                    <br>
-                    <input type="button" value="加入購物車">
-
+                            <option value="1">12個（一盒）</option>
+                        </select>
+                        <br>
+                        <br>
+                        <input id="addCart" type="button" value="加入購物車">
+                    </form>
 
 
                 </div>
@@ -198,7 +199,12 @@
 
     </main>
 
-
+    <div class="shoppingcarticon">
+        <a href="./shoppingcart.html">
+            <img src="./images/shoppingcart_icon.png" alt="">
+            <div id="itemNumber">0</div>
+        </a>
+    </div>
 
 
     <footer>
@@ -244,7 +250,7 @@
                     <span>地址｜台中市西屯區西屯路三段125號</span>
                     <br>
                     <span>電話｜0800-875126</span>
-                    
+
                     <br>
                     <span>版權聲明 © 2022 日日好日デザート</span>
                 </div>
